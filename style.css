@@ -1,0 +1,163 @@
+html{
+    background-color: rgb(21, 21, 21);
+
+}
+
+#topBar{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    width:100%;
+    height:70px;
+    position: fixed;
+    top: 0%;
+    left:0%;
+    z-index: 10;
+}
+
+#TBtab{
+    display: inline-flex;
+    right:2%;
+    font-size: 30px;
+    top:-20%;
+}
+
+.TBlabel{
+    margin-right:30px;
+}
+
+
+.TBlabel:hover{
+    color: rgba(158, 158, 158, 0.5);
+    
+}
+
+
+ul{
+    display: block;
+    position: absolute;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+    display:inline-block;
+    position: absolute;
+
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+#name{
+    left:150px;
+}
+
+#Bio{
+    margin-top: 200px;
+    height: 1000px;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: -600px;
+}
+
+#BioBorder{
+    position: relative;
+    top: 150px;
+    margin-left: 5%;
+    height: 700px;
+    width: 1700px;
+    background-color: rgb(255, 255, 255);
+    /* background: linear-gradient(to right,rgb(157, 157, 231),rgb(255, 255, 255)); */
+}
+
+#gallery{
+    margin-left: 3%;
+    margin-top: -3%;
+    width: 1220px;
+    margin-right: auto;
+}
+
+#img1{
+    width: 300px;
+    height: 550px;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    /* background: linear-gradient(red,yellow); */
+
+}
+
+#galleryBorder h1{
+    display: inline-flex;
+    margin-left: 43.5%;
+}
+
+#desc{
+    margin-left: 500px;
+    margin-top: -600px;
+}
+
+#desc p{
+    color:rgb(0, 0, 0)
+}
+
+#Experience{
+    height: 1000px;
+    width: 100%;
+    display: inline-block;
+    color:rgb(0, 0, 0);
+}
+
+#ExperienceBorder{
+    margin-left: 5%;
+    height: 700px;
+    width: 1700px;
+    background-color: rgb(255, 255, 255);
+}
+
+#EXP{
+    display: inline-block;
+    position: relative;
+    top:50px;
+}
+
+.ExpDesc{
+
+    font-weight: normal;
+}
+
+#Hobbies{
+    margin-top: -200px;
+    height: 1000px;
+    width: 100%;
+    display: inline-block;
+}
+
+#HobbiesBorder{
+    margin-left: 5%;
+    height: 700px;
+    width: 1700px;
+    background-color: rgb(255, 255, 255);
+}
+
+#Socials{
+    display: flex;
+    justify-content: center;
+}
+
+
+.SocialImage{
+    height: 130px;
+    width: 130px;
+    padding: 10px;
+}
+
+.SocialImage:hover{
+    opacity: 0.5;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
